@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 220px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            margin: 20px;
+            padding: 30px;
+            align-items: center;
+            border-radius: 10px;
+            border: solid 2px red;
+        }
+        .card:hover{
+            transform: scale(1.1);
+        }
+        .price{
+            color: orange;
+            
+        }
+        button{
+            background-color: rgb(17, 186, 17);
+            padding: 10px;
+            border-radius: 5px;
+        
+        }
+        button:hover{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body style="background-color: gray;">
+    <h1 align="center"> Our Products </h1>
+    <div class="container">
+        <div class="card">
+        <img src="resources/dell.jpg" width="150px" height="150px" alt="">
+        <h2 class="myclass"> Laptop</h2>
+        <p>High-quality product that meets your needs</p>
+        <h3 class="price">$805.08</h3>
+        <button>Add to cart</button>
+        </div>  
+        <div class="card">
+        <img src="resources/laptopcase.jpg" width="150px" height="150px" alt="">
+        <h2 class="myclass"> Laptop Bag</h2>
+        <p>Excellent craftsmanship and durable design</p>
+        <h3 class="price">$11.50</h3>
+        <button>Add to cart</button>
+        </div>  
+        <div class="card">
+        <img src="resources/kayboard.jpg" width="150px" height="150px" alt="">
+        <h2 class="myclass"> KeyBoard </h2>
+        <p>Reliable and affordable choice for everyone</p>
+        <h3 class="price">$12.00</h3>
+        <button>Add to cart</button>
+        </div>  
+    </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 220px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            margin: 20px;
+            padding: 30px;
+            align-items: center;
+            border-radius: 10px;
+            border: solid 2px green;
+        }
+        .card:hover{
+            transform: scale(1.1);
+        }
+        button:hover{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body style="background-color: grey;">
+    <h1 align="center">Our Products</h1>
+    <div class="container">
+    <div class="card">
+    <img src="/resources/dell.jpg"  width="150px" height="150px" alt="">
+    <div class="card-body">
+    <h5 class="card-title">Laptop</h5>
+    <p class="card-text">High-quality product that meets your needs</p>
+    <h3 class="price">$805.03</h3>
+    <a href="#" class="btn btn-primary">Add to Cart</a>
+    </div>
+    </div>
+    <div class="card">
+    <img src="/resources/laptopcase.jpg"  width="150px" height="150px" alt="">
+    <div class="card-body">
+    <h5 class="card-title">Laptop Bag</h5>
+    <p class="card-text">Excellent craftsmanship and durable design</p>
+    <h3 class="price">$11.50</h3>
+    <a href="#" class="btn btn-primary">Add to Cart</a>
+    </div>
+    </div>  
+    <div class="card">
+    <img src="/resources/kayboard.jpg" width="150px" height="150px" alt="">
+    <div class="card-body">
+    <h5 class="card-title">Keyboard</h5>
+    <p class="card-text">Reliable and affordable choice for everyone</p>
+    <h3 class="price">$12.00</h3>
+    <a href="#" class="btn btn-primary">Add to Cart</a>
+    </div> 
+    </div>
+</div>
+</body>
+</html>
